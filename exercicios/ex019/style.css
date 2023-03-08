@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+.aeiou{
+    background-color: violet;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: tomato;
+    background-color: rgb(180, 110, 245);
+    width: 300px;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: chartreuse;
+}
+a::after{
+    content: '[eu sou foda]';
+    color: saddlebrown;
+}
+a::before{
+    content:'[slow]';
+}
+a::after{
+    content: '[motion]';
+}
